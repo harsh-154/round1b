@@ -1,0 +1,10 @@
+sentence-transformers>=2.6,<3.0
+scikit-learn>=1.0,<1.7
+PyMuPDF==1.23.9
+# transformers is pulled in automatically by sentence-transformers but we pin a
+# leaner version known to work with MiniLM on CPU.
+transformers==4.41.1
+torch>=1.10.0
+tqdm
+langchain==0.2.0
+huggingface_hub>=0.23,<1.0

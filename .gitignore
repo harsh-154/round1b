@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyMuPDF cache files
+*.xref
+*.xref.tmp
+
+# VS Code
+.vscode/
+
+# macOS and Windows OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE-specific
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and output
+*.log
+*.out
+*.err
+*.bak
+
+# Python egg metadata and build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+
+# HuggingFace/Transformers caches
+~/.cache/
+~/.huggingface/
+*.tokenizers
+*.lock
+
+# LangChain cache
+.langchain/
+
+# Output JSON and intermediate results
+sample_data/output/
+*.json
+
+# pip log
+pip-log.txt
+
+# PDFs if not versioning
+sample_data/input/*.pdf
+
+# Temp & debug
+*.tmp
+*.temp
+*.swp
+*.old
+
+# Ignore secrets/configs if any
+*.env
+.env
+config.yaml
